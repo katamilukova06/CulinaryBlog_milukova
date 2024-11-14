@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "CulinaryBlog.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CulinaryBlog.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CulinaryBlog.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CulinaryBlog.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CulinaryBlog.Domain/CulinaryBlog.Domain.csproj",
+      "msbuildProject": "../CulinaryBlog.Domain/CulinaryBlog.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "CulinaryBlog.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\College 3\\Educational Practice\\CulinaryBlog_milukovakatya-main\\CulinaryBlog_milukovakatya.csproj",
+      "projectName": "CulinaryBlog_milukovakatya",
+      "projectPath": "D:\\College 3\\Educational Practice\\CulinaryBlog_milukovakatya-main\\CulinaryBlog_milukovakatya.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\College 3\\Educational Practice\\CulinaryBlog_milukovakatya-main\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "D:\\College 3\\Educational Practice\\CulinaryBlog.Domain\\CulinaryBlog.Domain.csproj": {
+              "projectPath": "D:\\College 3\\Educational Practice\\CulinaryBlog.Domain\\CulinaryBlog.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
